@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/main.js"></script>
+</head>
+
+<body id="bodyOx">
+    <div id="cabeceraOx">
+        <h2>Dejanos tu consulta</h2>
+    </div>
+    <img src="../imagenes/contacto.jpg" alt="contacto" id="contacto">
+    <a href="../html/index.html" id="volver"> Volver </a>
+    <form>
+        <div id="formularioPadding">
+            <div id="nombre">
+            <p> Nombre y apellido </p>
+            <input type="text" id="txtNombre" required>
+        </div>
+        </div>
+
+        <div id="formularioPadding">
+            <div id="servicios">
+            <p> Estoy interesado en:</p>
+            <label><input type="radio" name="rdbOx" value="Diseño" required>Diseño</label>
+            <label><input type="radio" name="rdbOx" value="Fotografia" required>Fotografia</label>
+            <label><input type="radio" name="rdbOx" value="Software" required>Software</label>
+            <label><input type="radio" name="rdbOx" value="Marketing" required>Marketing</label>
+        </div>
+    </div>
+
+        <div id="formularioPadding">
+        <div id="calificacion">
+        <p> Del 1 al 10 como calificas tu marca en cuanto ese rubro </p>
+        <input type="number" id="txtCalificacion" required>
+        </div>
+    </div>
+
+        <div id="formularioPadding"></div>
+        <div id="button">
+        <p> <input type="button" value="Enviar" onclick="grabar();" id="btn"></p>
+        </div>
+    </div>
+
+    </form>
+
+</body>
+
+</html>
